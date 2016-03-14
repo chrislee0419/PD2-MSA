@@ -1,0 +1,55 @@
+{
+	"menu_id" : "msa_options_menu",
+	"parent_menu_id" : "lua_mod_options_menu",
+	"title" : "msa_json_title",
+	"description" : "msa_json_desc",
+	"back_callback" : "MSASave",
+	"items" : [
+		{
+			"type" : "slider",
+			"id" : "msa_options_prim_mouse_sensitivity",
+			"title" : "msa_json_prim_mouse_sens_title",
+			"description" : "msa_json_prim_mouse_sens_desc",
+			"callback" : "MSASetPrimarySensitivity"
+			"value" : "PLACEHOLDER",
+			"default_value" : 0.5,
+			"max" : 2,
+			"min" : 0.05,
+			"step" : 0.01
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "keybind",
+			"id" : "msa_options_sec_keybind",
+			"title" : "msa_json_sec_keybind_title",
+			"description" : "msa_json_sec_keybind_desc",
+			"keybind_id" : "msa_sec_keybind"
+			"func" : "PLACEHOLDER"
+		},
+		{
+			"type" : "slider",
+			"id" : "msa_sec_mouse_sensitivity",
+			"title" : "msa_json_sec_mouse_sens_title",
+			"description" : "msa_json_sec_mouse_sens_desc",
+			"callback" : "MSASetSecondarySensitivity"
+			"value" : "PLACEHOLDER",
+			"default_value" : 0.5,
+			"max" : 2,
+			"min" : 0.05,
+			"step" : 0.01
+		},
+		{
+			"type" : "toggle",
+			"id" : "msa_options_sec_toggle",
+			"title" : "msa_json_sec_toggle_title",
+			"description" : "msa_json_sec_toggle_desc",
+			"callback" : "MSASetToggle",
+			"value" : "PLACEHOLDER",
+			"default_value" : false
+		}
+	]
+	
+}

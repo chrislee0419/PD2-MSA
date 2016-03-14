@@ -1,0 +1,12 @@
+{
+	"name" : "Mouse Sensitivity Additions",
+	"description" : "Adds additional mouse sensitivity settings.",
+	"author" : "hello",
+	"version" : "0",
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/menumanager",
+			"script_path" : "lua/menumanager.lua"
+		}
+	]
+}
