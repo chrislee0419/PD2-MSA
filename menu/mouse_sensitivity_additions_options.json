@@ -11,7 +11,7 @@
 			"title" : "msa_json_prim_mouse_sens_title",
 			"description" : "msa_json_prim_mouse_sens_desc",
 			"callback" : "MSASetPrimarySensitivity"
-			"value" : "PLACEHOLDER",
+			"value" : "primary_sensitivity",
 			"default_value" : 0.5,
 			"max" : 2,
 			"min" : 0.05,
@@ -19,15 +19,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
-		},
-		{
-			"type" : "keybind",
-			"id" : "msa_options_sec_keybind",
-			"title" : "msa_json_sec_keybind_title",
-			"description" : "msa_json_sec_keybind_desc",
-			"keybind_id" : "msa_sec_keybind"
-			"func" : "PLACEHOLDER"
+			"size" : 24
 		},
 		{
 			"type" : "slider",
@@ -35,7 +27,7 @@
 			"title" : "msa_json_sec_mouse_sens_title",
 			"description" : "msa_json_sec_mouse_sens_desc",
 			"callback" : "MSASetSecondarySensitivity"
-			"value" : "PLACEHOLDER",
+			"value" : "secondary_sensitivity",
 			"default_value" : 0.5,
 			"max" : 2,
 			"min" : 0.05,
@@ -47,8 +39,20 @@
 			"title" : "msa_json_sec_toggle_title",
 			"description" : "msa_json_sec_toggle_desc",
 			"callback" : "MSASetToggle",
-			"value" : "PLACEHOLDER",
-			"default_value" : false
+			"value" : "toggle_boolean",
+			"default_value" : "off"
+		},
+		{
+			"type" : "divider",
+			"size" : 8
+		},
+		{
+			"type" : "keybind",
+			"id" : "msa_options_sec_keybind",
+			"title" : "msa_json_sec_keybind_title",
+			"description" : "msa_json_sec_keybind_desc",
+			"keybind_id" : "msa_sec_keybind"
+			"func" : "MSAActivateSecondarySensitivity"
 		}
 	]
 	
