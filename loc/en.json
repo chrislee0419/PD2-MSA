@@ -8,9 +8,6 @@
 	"msa_json_sec_mouse_sens_title" : "Secondary Sensitivity",
 	"msa_json_sec_mouse_sens_desc" : "Secondary in-game mouse sensitivity",
 
-	"msa_json_sec_toggle_title" : "Toggle / Hold Keybind",
-	"msa_json_sec_toggle_desc" : "Check for toggle, uncheck to hold",
-
 	"msa_json_sec_keybind_title" : "Quick-change Sensitivity Keybind",
 	"msa_json_sec_keybind_desc" : "Keybind to use the secondary mouse sensitivity"
 }

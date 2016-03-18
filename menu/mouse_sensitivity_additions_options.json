@@ -10,7 +10,7 @@
 			"id" : "msa_options_prim_mouse_sensitivity",
 			"title" : "msa_json_prim_mouse_sens_title",
 			"description" : "msa_json_prim_mouse_sens_desc",
-			"callback" : "MSASetPrimarySensitivity"
+			"callback" : "MSASetPrimarySensitivity",
 			"value" : "primary_sensitivity",
 			"default_value" : 0.5,
 			"max" : 2,
@@ -26,21 +26,12 @@
 			"id" : "msa_sec_mouse_sensitivity",
 			"title" : "msa_json_sec_mouse_sens_title",
 			"description" : "msa_json_sec_mouse_sens_desc",
-			"callback" : "MSASetSecondarySensitivity"
+			"callback" : "MSASetSecondarySensitivity",
 			"value" : "secondary_sensitivity",
 			"default_value" : 0.5,
 			"max" : 2,
 			"min" : 0.05,
 			"step" : 0.01
-		},
-		{
-			"type" : "toggle",
-			"id" : "msa_options_sec_toggle",
-			"title" : "msa_json_sec_toggle_title",
-			"description" : "msa_json_sec_toggle_desc",
-			"callback" : "MSASetToggle",
-			"value" : "toggle_boolean",
-			"default_value" : "off"
 		},
 		{
 			"type" : "divider",
@@ -51,7 +42,7 @@
 			"id" : "msa_options_sec_keybind",
 			"title" : "msa_json_sec_keybind_title",
 			"description" : "msa_json_sec_keybind_desc",
-			"keybind_id" : "msa_sec_keybind"
+			"keybind_id" : "msa_sec_keybind",
 			"func" : "MSAActivateSecondarySensitivity"
 		}
 	]

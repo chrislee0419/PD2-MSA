@@ -6,7 +6,7 @@
 	"hooks" : [
 		{
 			"hook_id" : "lib/managers/menumanager",
-			"script_path" : "lua/menumanager.lua"
+			"script_path" : "lua/mousesensitivity.lua"
 		}
 	]
 }
